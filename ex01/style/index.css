@@ -1,0 +1,27 @@
+h2 {
+    text-align: center;
+    color: red;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box2 {
+    margin-left: 4%;
+    margin-top: 3%;
+    color: lightskyblue;
+}
+.box3 {
+    margin-left: 4%;
+    margin-right: 2%;
+    width: auto;
+    height: auto;
+}
